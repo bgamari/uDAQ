@@ -5,15 +5,17 @@ T 44200 48500 5 10 0 1 0 0 1
 device=none
 T 45100 48500 5 10 1 1 0 0 1
 refdes=BEAGLE
+T 42600 42300 5 10 0 0 0 0 1
+footprint=HEADER28_2
 }
 C 57600 41600 1 0 0 stm32f405t6.sym
 {
 T 61300 45600 5 10 0 0 0 0 1
 device=STM32F405T6
 T 61300 45800 5 10 0 0 0 0 1
-footprint=LQFP64
+footprint=LQFP64_10
 T 65000 48900 5 10 1 1 0 6 1
-refdes=U?
+refdes=U1
 }
 C 70600 45100 1 0 0 dac8568.sym
 {

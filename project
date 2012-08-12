@@ -1,5 +1,5 @@
-schematics beagle-daq.sch
+schematics udaq.sch
 
-output-name beagle-daq
+output-name udaq
 skip-m4
 
