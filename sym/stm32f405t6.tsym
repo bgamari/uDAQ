@@ -7,9 +7,9 @@
 #   useful for address ports, busses, ...
 wordswap=yes
 rotate_labels=no
-sort_labels=yes
+sort_labels=no
 generate_pinseq=yes
-sym_width=1400
+sym_width=7000
 pinwidthvertical=400
 pinwidthhorizontal=400
 
