@@ -6,7 +6,7 @@ FileVersion[20091103]
 PCB["uDAQ" 1510.00mil 1510.00mil]
 
 Grid[1000.000000 0.0000 0.0000 0]
-Cursor[1510.00mil 1080.00mil 0.000000]
+Cursor[490.00mil 360.00mil 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[6.00mil 10.00mil 6.00mil 10.00mil 13.00mil 7.00mil]
@@ -829,6 +829,7 @@ Via[450.00mil 450.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[775.00mil 610.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[265.00mil 155.00mil 60.00mil 20.00mil 0.0000 35.00mil "" ""]
 Via[940.00mil 1190.00mil 60.00mil 20.00mil 0.0000 35.00mil "" "thermal(3X)"]
+Via[680.00mil 610.00mil 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(3X)"]
 
 Element["" "1206" "C2" "10n" 440.00mil 300.00mil -85.00mil 35.00mil 0 80 ""]
 (
@@ -1825,7 +1826,7 @@ Layer(1 "component")
 	Line[825.65mil 606.11mil 778.89mil 606.11mil 10.00mil 20.00mil "clearline"]
 	Line[778.89mil 606.11mil 775.00mil 610.00mil 10.00mil 20.00mil "clearline"]
 	Line[280.00mil 950.00mil 330.00mil 900.00mil 10.00mil 20.00mil "clearline"]
-	Line[330.00mil 900.00mil 330.00mil 760.00mil 10.00mil 20.00mil "clearline"]
+	Line[330.00mil 900.00mil 330.00mil 760.00mil 10.00mil 20.00mil "clearline,selected"]
 	Line[330.00mil 760.00mil 350.00mil 740.00mil 10.00mil 20.00mil "clearline"]
 	Line[350.00mil 740.00mil 410.00mil 740.00mil 10.00mil 20.00mil "clearline"]
 	Line[410.00mil 740.00mil 500.00mil 650.00mil 10.00mil 20.00mil "clearline"]
@@ -1846,6 +1847,8 @@ Layer(1 "component")
 	Line[295.00mil 100.00mil 292.50mil 102.50mil 25.00mil 20.00mil "clearline"]
 	Line[369.80mil 100.00mil 495.00mil 100.00mil 25.00mil 20.00mil "clearline"]
 	Line[940.00mil 1120.00mil 940.00mil 1200.00mil 25.00mil 20.00mil "clearline"]
+	Line[608.26mil 613.97mil 676.03mil 613.97mil 10.00mil 20.00mil "clearline"]
+	Line[676.03mil 613.97mil 680.00mil 610.00mil 10.00mil 20.00mil "clearline"]
 )
 Layer(2 "solder")
 (
@@ -1944,8 +1947,6 @@ Layer(2 "solder")
 	Line[430.00mil 30.00mil 440.00mil 40.00mil 40.00mil 20.00mil "clearline"]
 	Line[23.1640mm 17.2220mm 910.00mil 680.00mil 10.00mil 20.00mil "clearline"]
 	Line[750.00mil 570.00mil 745.00mil 570.00mil 10.00mil 20.00mil "clearline"]
-	Line[745.00mil 570.00mil 700.00mil 615.00mil 10.00mil 20.00mil "clearline"]
-	Line[700.00mil 615.00mil 700.00mil 680.00mil 10.00mil 20.00mil "clearline"]
 	Line[100.00mil 300.00mil 150.00mil 350.00mil 10.00mil 20.00mil "clearline"]
 	Line[267.21mil 232.79mil 200.00mil 300.00mil 10.00mil 20.00mil "clearline"]
 	Line[200.00mil 300.00mil 210.00mil 290.00mil 10.00mil 20.00mil "clearline"]
@@ -1982,6 +1983,10 @@ Layer(2 "solder")
 	Line[450.00mil 450.00mil 510.00mil 450.00mil 10.00mil 20.00mil "clearline"]
 	Line[510.00mil 450.00mil 495.00mil 450.00mil 10.00mil 20.00mil "clearline"]
 	Line[584.80mil 450.00mil 640.00mil 450.00mil 10.00mil 20.00mil ""]
+	Line[750.00mil 570.00mil 730.00mil 590.00mil 10.00mil 20.00mil "clearline"]
+	Line[730.00mil 590.00mil 730.00mil 650.00mil 10.00mil 20.00mil "clearline"]
+	Line[730.00mil 650.00mil 700.00mil 680.00mil 10.00mil 20.00mil "clearline"]
+	Line[700.00mil 680.00mil 705.00mil 675.00mil 10.00mil 20.00mil "clearline"]
 )
 Layer(3 "outline")
 (
@@ -2243,6 +2248,7 @@ NetList()
 		Connect("U2-2")
 		Connect("U3-8")
 		Connect("U3-11")
+		Connect("U3-13")
 		Connect("U4-14")
 		Connect("U5-1")
 		Connect("U5-2")
