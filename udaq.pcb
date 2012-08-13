@@ -6,11 +6,11 @@ FileVersion[20091103]
 PCB["uDAQ" 1510.00mil 1510.00mil]
 
 Grid[500.000000 0.0000 0.0000 0]
-Cursor[735.00mil 695.00mil 0.000000]
+Cursor[405.00mil 350.00mil 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[6.00mil 10.00mil 6.00mil 10.00mil 13.00mil 7.00mil]
-Flags("showdrc,nameonpcb,clearnew,snappin,locknames")
+Flags("showdrc,nameonpcb,clearnew,snappin,onlynames")
 Groups("1,c:2,4,s:3:5:6:7:8")
 Styles["Signal,10.00mil,36.00mil,20.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,40.00mil,60.00mil,35.00mil,10.00mil:Skinny,6.00mil,24.02mil,11.81mil,6.00mil"]
 
@@ -860,7 +860,7 @@ Element["" "0805" "C6" "1u" 808.00mil 430.00mil -74.59mil 50.79mil 0 100 ""]
 
 	)
 
-Element["onsolder" "0805" "C5" "1u" 1000.00mil 690.00mil -14.21mil -142.99mil 1 100 "auto"]
+Element["onsolder" "0805" "C5" "1u" 1000.00mil 690.00mil 2.01mil -80.79mil 0 100 "auto"]
 (
 	Pad[-3.93mil -37.40mil 3.93mil -37.40mil 51.18mil 20.00mil 57.18mil "input" "1" "onsolder,square"]
 	Pad[-3.93mil 37.40mil 3.93mil 37.40mil 51.18mil 20.00mil 57.18mil "input" "2" "onsolder,square"]
@@ -938,7 +938,7 @@ Element["onsolder" "HEADER5_1" "EXT" "unknown" 1445.00mil 540.00mil -155.00mil 5
 
 	)
 
-Element["onsolder" "0603" "R1" "unknown" 355.00mil 910.00mil -136.65mil 29.37mil 0 100 "auto"]
+Element["onsolder" "0603" "R1" "unknown" 355.00mil 910.00mil -146.65mil 29.37mil 0 100 "auto"]
 (
 	Pad[31.49mil 0.0000 35.43mil 0.0000 39.37mil 20.00mil 45.37mil "input" "1" "onsolder,square,edge2"]
 	Pad[-35.43mil 0.0000 -31.49mil 0.0000 39.37mil 20.00mil 45.37mil "input" "2" "onsolder,square"]
@@ -993,7 +993,7 @@ Element["onsolder" "0603" "R2" "unknown" 355.00mil 840.00mil -145.11mil 29.37mil
 
 	)
 
-Element["onsolder" "0603" "R3" "unknown" 355.00mil 770.00mil -140.11mil 29.37mil 0 100 "auto"]
+Element["onsolder" "0603" "R3" "unknown" 355.00mil 770.00mil -145.11mil 29.37mil 0 100 "auto"]
 (
 	Pad[31.49mil 0.0000 35.43mil 0.0000 39.37mil 20.00mil 45.37mil "input" "1" "onsolder,square,edge2"]
 	Pad[-35.43mil 0.0000 -31.49mil 0.0000 39.37mil 20.00mil 45.37mil "input" "2" "onsolder,square"]
@@ -1050,7 +1050,7 @@ Element["onsolder" "HEADER5_1" "UART3" "unknown" 1445.00mil 1135.00mil -225.00mi
 
 	)
 
-Element["onsolder,lock" "HEADER10_2" "DAC" "unknown" 1165.00mil 1390.00mil 120.00mil -105.00mil 0 100 "auto"]
+Element["onsolder,lock" "HEADER10_2" "DAC" "unknown" 1165.00mil 1390.00mil -275.00mil -105.00mil 0 100 "auto"]
 (
 	Pin[-250.00mil -50.00mil 72.00mil 20.00mil 78.00mil 42.00mil "" "1" "square,lock,edge2"]
 	Pin[-250.00mil 50.00mil 72.00mil 20.00mil 78.00mil 42.00mil "" "2" "lock,edge2"]
@@ -1097,7 +1097,7 @@ Element["" "TSSOP-65P-640L1-16N" "U4" "unknown" 1200.00mil 1175.00mil -72.67mil 
 
 	)
 
-Element["onsolder" "0805" "C8" "2.2u" 1175.00mil 720.00mil 114.21mil 77.99mil 3 100 "auto"]
+Element["onsolder" "0805" "C8" "2.2u" 1175.00mil 720.00mil -27.99mil 139.21mil 0 100 "auto"]
 (
 	Pad[-3.93mil 37.40mil 3.93mil 37.40mil 51.18mil 20.00mil 57.18mil "input" "1" "onsolder,square"]
 	Pad[-3.93mil -37.40mil 3.93mil -37.40mil 51.18mil 20.00mil 57.18mil "input" "2" "onsolder,square"]
@@ -1254,7 +1254,7 @@ Element["" "TSSOP-65P-640L1-20N" "U3" "unknown" 500.00mil 550.00mil -72.67mil -1
 
 	)
 
-Element["onsolder" "0805" "PWR_LED" "unknown" 687.60mil 300.00mil -68.19mil 109.21mil 0 100 "auto"]
+Element["onsolder" "0805" "PWR_LED" "unknown" 687.60mil 300.00mil -108.19mil 109.21mil 0 100 "auto"]
 (
 	Pad[37.40mil -3.93mil 37.40mil 3.93mil 51.18mil 20.00mil 57.18mil "input" "1" "onsolder,square"]
 	Pad[-37.40mil -3.93mil -37.40mil 3.93mil 51.18mil 20.00mil 57.18mil "input" "2" "onsolder,square"]
@@ -1328,7 +1328,7 @@ Element["onsolder" "TSSOP-65P-640L1-8N" "U5" "unknown" 415.00mil 220.00mil 12.33
 
 	)
 
-Element["onsolder" "0603" "R5" "unknown" 415.00mil 370.00mil -4.4290mm -15.11mil 1 100 "auto"]
+Element["onsolder" "0603" "R5" "unknown" 415.00mil 370.00mil -4.6830mm 4.89mil 1 100 "auto"]
 (
 	Pad[0.0000 -35.43mil 0.0000 -31.49mil 39.37mil 20.00mil 45.37mil "input" "1" "onsolder,square"]
 	Pad[0.0000 31.49mil 0.0000 35.43mil 39.37mil 20.00mil 45.37mil "input" "2" "onsolder,square,edge2"]
