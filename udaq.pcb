@@ -6,11 +6,11 @@ FileVersion[20091103]
 PCB["uDAQ" 1510.00mil 1510.00mil]
 
 Grid[500.000000 0.0000 0.0000 0]
-Cursor[570.00mil 640.00mil 0.000000]
+Cursor[175.00mil 1290.00mil 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[6.00mil 10.00mil 6.00mil 10.00mil 13.00mil 7.00mil]
-Flags("showdrc,nameonpcb,clearnew,snappin")
+Flags("showdrc,rubberband,nameonpcb,clearnew,snappin,locknames")
 Groups("1,c:2,4,s:3:5:6:7:8")
 Styles["Signal,10.00mil,36.00mil,20.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,40.00mil,60.00mil,35.00mil,10.00mil:Skinny,6.00mil,24.02mil,11.81mil,6.00mil"]
 
@@ -824,6 +824,7 @@ Via[440.00mil 520.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[390.00mil 70.00mil 60.00mil 20.00mil 0.0000 35.00mil "" ""]
 Via[360.00mil 700.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[440.00mil 620.00mil 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(3X)"]
+Via[775.00mil 300.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 
 Element["" "1206" "C1" "1u" 625.00mil 50.00mil -85.00mil 35.00mil 0 80 ""]
 (
@@ -1124,7 +1125,7 @@ Element["onsolder" "0805" "C8" "2.2u" 1175.00mil 720.00mil 114.21mil 77.99mil 3 
 
 	)
 
-Element["found,selected" "LQFP64_10" "U1" "unknown" 1050.00mil 675.00mil -20.00mil -60.00mil 0 100 ""]
+Element["found" "LQFP64_10" "U1" "unknown" 1050.00mil 675.00mil -20.00mil -60.00mil 0 100 ""]
 (
 	Pad[-241.34mil -3.7498mm -207.36mil -3.7498mm 11.02mil 30.00mil 14.02mil "1" "1" "square"]
 	Pad[-241.34mil -127.95mil -207.36mil -127.95mil 11.02mil 30.00mil 14.02mil "2" "2" "square"]
@@ -1267,6 +1268,28 @@ Element["" "TSSOP-65P-640L1-20N" "U3" "unknown" 500.00mil 550.00mil -72.67mil -1
 	ElementLine [-72.67mil -122.95mil -67.67mil -127.95mil 10.00mil]
 	ElementLine [-72.67mil -112.95mil -57.67mil -127.95mil 10.00mil]
 	ElementLine [-72.67mil -102.95mil -47.67mil -127.95mil 10.00mil]
+
+	)
+
+Element["onsolder" "0805" "PWR_LED" "unknown" 687.60mil 300.00mil -68.19mil 109.21mil 0 100 "auto"]
+(
+	Pad[37.40mil -3.93mil 37.40mil 3.93mil 51.18mil 20.00mil 57.18mil "input" "1" "onsolder,square"]
+	Pad[-37.40mil -3.93mil -37.40mil 3.93mil 51.18mil 20.00mil 57.18mil "input" "2" "onsolder,square"]
+	ElementLine [77.99mil -44.52mil 77.99mil 44.52mil 10.00mil]
+	ElementLine [-77.99mil -44.52mil 77.99mil -44.52mil 10.00mil]
+	ElementLine [-77.99mil -44.52mil -77.99mil 44.52mil 10.00mil]
+	ElementLine [-77.99mil 44.52mil 77.99mil 44.52mil 10.00mil]
+
+	)
+
+Element["" "0603" "R4" "unknown" 850.00mil 300.00mil -60.11mil -2.5240mm 0 100 ""]
+(
+	Pad[31.49mil 0.0000 35.43mil 0.0000 39.37mil 20.00mil 45.37mil "input" "1" "square,edge2"]
+	Pad[-35.43mil 0.0000 -31.49mil 0.0000 39.37mil 20.00mil 45.37mil "input" "2" "square"]
+	ElementLine [70.11mil -34.68mil 70.11mil 34.68mil 10.00mil]
+	ElementLine [-70.11mil 34.68mil 70.11mil 34.68mil 10.00mil]
+	ElementLine [-70.11mil -34.68mil -70.11mil 34.68mil 10.00mil]
+	ElementLine [-70.11mil -34.68mil 70.11mil -34.68mil 10.00mil]
 
 	)
 Layer(1 "component")
@@ -1713,6 +1736,9 @@ Layer(1 "component")
 	Line[365.44mil 639.56mil 355.00mil 650.00mil 10.00mil 20.00mil "clearline"]
 	Line[355.00mil 650.00mil 355.00mil 695.00mil 10.00mil 20.00mil "clearline"]
 	Line[355.00mil 695.00mil 362.50mil 702.50mil 10.00mil 20.00mil "clearline"]
+	Line[832.50mil 372.50mil 832.50mil 350.96mil 10.00mil 20.00mil "clearline"]
+	Line[832.50mil 350.96mil 883.46mil 300.00mil 10.00mil 20.00mil "clearline"]
+	Line[816.54mil 300.00mil 775.00mil 300.00mil 10.00mil 20.00mil "clearline"]
 )
 Layer(2 "solder")
 (
@@ -1809,6 +1835,9 @@ Layer(2 "solder")
 	Line[360.00mil 700.00mil 300.00mil 700.00mil 10.00mil 20.00mil "clearline"]
 	Line[300.00mil 700.00mil 250.00mil 750.00mil 10.00mil 20.00mil "clearline"]
 	Line[250.00mil 750.00mil 150.00mil 750.00mil 10.00mil 20.00mil "clearline"]
+	Line[883.46mil 300.00mil 945.00mil 300.00mil 10.00mil 20.00mil ""]
+	Line[775.00mil 300.00mil 720.00mil 300.00mil 10.00mil 20.00mil "clearline"]
+	Line[650.20mil 300.00mil 600.00mil 300.00mil 10.00mil 20.00mil ""]
 )
 Layer(3 "outline")
 (
@@ -1852,6 +1881,7 @@ NetList()
 		Connect("C6-2")
 		Connect("C7-2")
 		Connect("JTAG-1")
+		Connect("R4-1")
 		Connect("U1-13")
 		Connect("U1-19")
 		Connect("U1-48")
@@ -2044,6 +2074,7 @@ NetList()
 		Connect("JTAG-3")
 		Connect("JTAG-5")
 		Connect("JTAG-9")
+		Connect("PWR_LED-2")
 		Connect("R1-2")
 		Connect("R2-2")
 		Connect("R3-2")
@@ -2186,6 +2217,11 @@ NetList()
 	(
 		Connect("LED3-2")
 		Connect("R3-1")
+	)
+	Net("unnamed_net13" "(unknown)")
+	(
+		Connect("PWR_LED-1")
+		Connect("R4-2")
 	)
 	Net("USART3_RX" "(unknown)")
 	(
