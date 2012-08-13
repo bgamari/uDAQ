@@ -34,6 +34,7 @@ gerbers.zip : gerbers
 	rm -f $@
 	zip -j $@ gerbers/*
 
+.PHONY : osh-park-gerbers
 osh-park-gerbers : gerbers
 	mkdir -p $@
 	cp gerbers/$(name).top.gbr "$@/Top Layer.ger"
