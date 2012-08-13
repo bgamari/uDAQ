@@ -5,8 +5,9 @@ acquisition board for the BeagleBoard and PandaBoard platforms.
 
 ## Bill of Materials
 
+  * BeagleBoard XM: $150
   * STM32F405 microcontroller: $7
   * DAC8568: $22
   * TPS71733: $1
-  * 
+  * TXB0108: $1
 
