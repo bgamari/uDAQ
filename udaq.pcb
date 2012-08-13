@@ -6,11 +6,11 @@ FileVersion[20091103]
 PCB["uDAQ" 1510.00mil 1510.00mil]
 
 Grid[500.000000 0.0000 0.0000 0]
-Cursor[885.02mil 13.1053mm 0.000000]
+Cursor[860.00mil 540.00mil 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[6.00mil 10.00mil 6.00mil 10.00mil 13.00mil 7.00mil]
-Flags("showdrc,nameonpcb,clearnew,snappin,locknames")
+Flags("showdrc,nameonpcb,clearnew,snappin,onlynames")
 Groups("1,c:2,4,s:3:5:6:7:8")
 Styles["Signal,10.00mil,36.00mil,20.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,40.00mil,60.00mil,35.00mil,10.00mil:Skinny,6.00mil,24.02mil,11.81mil,6.00mil"]
 
@@ -1338,7 +1338,7 @@ Element["onsolder" "0603" "R6" "unknown" 330.00mil 370.00mil 3.1910mm 4.89mil 1 
 
 	)
 
-Element["onsolder" "SMD-RESONATOR" "X1" "unknown" 885.02mil 575.01mil 0.0000 0.0000 3 100 "auto"]
+Element["onsolder" "SMD-RESONATOR" "X1" "unknown" 885.02mil 575.01mil -110.03mil -29.99mil 0 100 "auto"]
 (
 	Pad[-1.1500mm 0.0000 1.1500mm 0.0000 0.8000mm 20.00mil 1.3080mm "" "2" "onsolder,square"]
 	Pad[-1.1500mm 1.5000mm 1.1500mm 1.5000mm 0.8000mm 20.00mil 1.3080mm "" "3" "onsolder,square"]
