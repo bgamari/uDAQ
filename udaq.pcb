@@ -5,8 +5,8 @@ FileVersion[20091103]
 
 PCB["uDAQ" 1510.00mil 1510.00mil]
 
-Grid[500.000000 0.0000 0.0000 0]
-Cursor[560.00mil 60.00mil 0.000000]
+Grid[2500.000000 0.0000 0.0000 0]
+Cursor[410.00mil 740.00mil 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[6.00mil 10.00mil 6.00mil 10.00mil 13.00mil 7.00mil]
@@ -787,7 +787,7 @@ Symbol['~' 12.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
 Attribute("PCB::grid::unit" "mil")
-Attribute("PCB::grid::size" "5.00mil")
+Attribute("PCB::grid::size" "25.00mil")
 Via[925.00mil 400.00mil 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(3X)"]
 Via[1275.00mil 500.00mil 36.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[610.00mil 700.00mil 36.00mil 20.00mil 0.0000 20.00mil "" "thermal(3X)"]
@@ -2070,6 +2070,9 @@ Layer(9 "silk")
 )
 Layer(10 "silk")
 (
+	Text[278.46mil 930.00mil 0 112 "bgamari@gmail.com" "clearline"]
+	Text[275.00mil 840.00mil 0 116 "(c) Ben Gamari" "clearline"]
+	Text[275.00mil 720.00mil 0 186 "uDAQ" "clearline"]
 )
 NetList()
 (
