@@ -6,7 +6,7 @@ FileVersion[20091103]
 PCB["uDAQ" 1500.00mil 1500.00mil]
 
 Grid[500.000000 0.0000 0.0000 0]
-Cursor[500.00mil 100.00mil 0.000000]
+Cursor[0.0000 1135.00mil 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[6.00mil 10.00mil 6.00mil 10.00mil 13.00mil 7.00mil]
@@ -1798,6 +1798,10 @@ Layer(2 "solder")
 )
 Layer(3 "outline")
 (
+	Line[0.0000 1500.00mil 0.0000 0.0000 25.00mil 20.00mil "clearline"]
+	Line[0.0000 0.0000 1500.00mil 0.0000 25.00mil 20.00mil "clearline"]
+	Line[1500.00mil 0.0000 1500.00mil 1500.00mil 25.00mil 20.00mil "clearline"]
+	Line[1500.00mil 1500.00mil 0.0000 1500.00mil 25.00mil 20.00mil "clearline"]
 )
 Layer(4 "GND")
 (
