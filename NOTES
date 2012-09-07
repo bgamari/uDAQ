@@ -1,3 +1,22 @@
+## Connections
+
 STM32 USART1            Beagle UART2
 STM32 SPI1              Beagle McSPI3
 STM32 SPI2              DAC8568
+
+## Issues:
+
+# Rev. 1 (a32668a65)
+
+  * No polarity on LED silkscreen
+  * No outline around STM32 footprint
+  * Not enough land for pins
+  * Filtering for SPI lines?
+  * Pins not compatible with PandaBoard
+  * No SRST on JTAG?
+  * Didn't bring BOOT0 to BeagleBoard
+  * MISO/MOSI and SIMO/SOMI incongruency
+
+## FIXME
+
+  * Replace C1, C3, C11 with proper values
