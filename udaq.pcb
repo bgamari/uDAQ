@@ -6,7 +6,7 @@ FileVersion[20091103]
 PCB["uDAQ" 1510.00mil 1510.00mil]
 
 Grid[500.000000 0.0000 0.0000 0]
-Cursor[800.00mil 800.00mil 0.000000]
+Cursor[305.00mil 655.00mil 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[6.00mil 10.00mil 6.00mil 10.00mil 13.00mil 7.00mil]
@@ -1162,7 +1162,7 @@ Element["onsolder" "TSSOP-65P-640L1-8N" "U5" "unknown" 415.00mil 220.00mil 12.33
 
 	)
 
-Element["onsolder" "0603" "R5" "10k" 415.00mil 370.00mil 0.9050mm -65.11mil 1 100 "auto"]
+Element["onsolder" "0603" "R5" "10k" 415.00mil 370.00mil -0.6190mm 79.89mil 1 100 "auto"]
 (
 	Pad[0.0000 -35.43mil 0.0000 -31.49mil 39.37mil 20.00mil 45.37mil "input" "1" "onsolder,square"]
 	Pad[0.0000 31.49mil 0.0000 35.43mil 39.37mil 20.00mil 45.37mil "input" "2" "onsolder,square,edge2"]
@@ -1240,7 +1240,7 @@ Element["" "0805" "C11" "1u" 332.40mil 100.00mil -77.99mil -114.21mil 0 100 ""]
 
 	)
 
-Element["" "TSSOP-65P-640L1-20N" "U3" "unknown" 500.00mil 550.00mil -72.67mil -187.95mil 0 100 ""]
+Element["" "TSSOP-65P-640L1-20N" "U3" "unknown" 500.00mil 550.00mil -72.67mil -187.95mil 0 100 "selected"]
 (
 	Pad[-121.85mil -115.15mil -94.67mil -115.15mil 16.14mil 12.02mil 20.14mil "" "1" "square"]
 	Pad[-121.85mil -89.56mil -94.67mil -89.56mil 16.14mil 12.02mil 20.14mil "" "2" "square"]
