@@ -1,7 +1,7 @@
 # μDAQ: A minimal data-acquisition board
 
 The μDac is a small, fairly low-cost, fairly high-speed data
-acquisition board for the BeagleBoard and PandaBoard platforms.
+acquisition board for the BeagleBoard platform.
 
 ## Bill of Materials
 
@@ -13,5 +13,5 @@ acquisition board for the BeagleBoard and PandaBoard platforms.
 
 ## License
 
-The μDAQ is licensed under the GNU Public License, version 2.
+The μDAQ is licensed under the CERN Open Hardware License v1.1
 

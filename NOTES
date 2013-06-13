@@ -1,12 +1,12 @@
-## Connections
+# Connections
 
 STM32 USART1            Beagle UART2
 STM32 SPI1              Beagle McSPI3
 STM32 SPI2              DAC8568
 
-## Issues:
+# Issues:
 
-# Rev. 1 (a32668a65)
+## Rev. 1 (a32668a65)
 
   * No polarity on LED silkscreen
   * No outline around STM32 footprint
@@ -17,6 +17,17 @@ STM32 SPI2              DAC8568
   * Didn't bring BOOT0 to BeagleBoard
   * MISO/MOSI and SIMO/SOMI incongruency
 
-## FIXME
+# FIXME
 
   * Replace C1, C3, C11 with proper values
+
+# Clocking
+
+HSI (internal oscillator)       14 MHz
+Maximum fHCLK (AHB)             144 MHz
+Maximum fCLK1 (APB1)            42 MHz
+Maximum fCLK2 (APB2)            84 MHz
+
+Maximum ADCCLK                  36 MHz
+Maximum ADC sampling rate       1.2 MHz
+
