@@ -1,7 +1,8 @@
 # μDAQ: A minimal data-acquisition board
 
 The μDac is a small, fairly low-cost, fairly high-speed data
-acquisition board for the BeagleBoard platform.
+acquisition board for the BeagleBoard platform (in particular the BeagleBoard
+XM).
 
 ## Bill of Materials
 
